@@ -1,0 +1,88 @@
+/* Завдання 005-0 */
+
+.countainer_0 {
+    width: 400px;
+    background-color: rgb(211, 211, 211);
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+/* Завдання 005-1 */
+
+ul {
+    background-color: blue;
+    padding-left: 0;
+}
+
+li {
+    display: inline-flex;
+    color: #fff;
+    padding: 10px;
+    border-right: 2px solid #000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Завдання 005-2 */
+
+.countainer_2 {
+    border: 5px solid #000;
+    padding: 20px;
+}
+
+.bloc_right {
+    width: 400px;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    margin-left: auto;
+}
+
+.bloc_right h1 {
+    margin: 0;
+}
+
+
+/* Завдання 005-3 */
+
+.countainer_3 {
+    background-color: gold;
+    padding: 40px;
+}
+
+.countainer_3 ul {
+    background-color: gold;
+    margin: 0;
+}
+
+.countainer_3 li {
+    padding: 0;
+    border: 1px solid #000;
+    margin-right: 40px;
+}
+
+.countainer_3 div {
+    padding: 10px;
+}
+
+img {
+    display: block;
+}
+
+.facebook {
+    background-color: rgb(0, 0, 254);
+}
+
+.instagram {
+    background-color: rgb(255, 192, 203);
+}
+
+.twitter {
+    background-color: rgb(1, 255, 255);
+}
+
+.youtube {
+    background-color: rgb(254, 0, 0);
+}
