@@ -1,23 +1,23 @@
 /* Завдання 005-0 */
 
-.countainer_0 {
+.rectangular_block {
     width: 400px;
     background-color: rgb(211, 211, 211);
     padding: 20px;
-    margin: auto;
-    margin-top: 100px;
+    margin: 100px auto 0;
+    box-sizing: border-box;
 }
 
 
 /* Завдання 005-1 */
 
-ul {
+.first_menu ul {
     background-color: blue;
     padding-left: 0;
 }
 
-li {
-    display: inline-flex;
+.first_menu li {
+    display: inline-block;
     color: #fff;
     padding: 10px;
     border-right: 2px solid #000;
@@ -28,47 +28,45 @@ li {
 
 /* Завдання 005-2 */
 
-.countainer_2 {
+.wrapper_block_right {
     border: 5px solid #000;
     padding: 20px;
 }
 
-.bloc_right {
+.block_right {
     width: 400px;
     background-color: rgb(211, 211, 211);
     padding: 10px;
     margin-left: auto;
 }
 
-.bloc_right h1 {
+.block_right h1 {
     margin: 0;
 }
 
 
 /* Завдання 005-3 */
 
-.countainer_3 {
+.social_media_panel {
     background-color: gold;
     padding: 40px;
 }
 
-.countainer_3 ul {
+.social_media_panel ul {
     background-color: gold;
     margin: 0;
 }
 
-.countainer_3 li {
+.social_media_panel li {
     padding: 0;
     border: 1px solid #000;
     margin-right: 40px;
+    display: inline-block;
 }
 
-.countainer_3 div {
+.social_media_panel a {
     padding: 10px;
-}
-
-img {
-    display: block;
+    display: inline-block;
 }
 
 .facebook {
